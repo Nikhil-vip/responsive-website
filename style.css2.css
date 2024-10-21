@@ -1,0 +1,156 @@
+body{
+ background-color: aqua;  
+ height: 1500px; 
+}
+div{
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+pre{
+    transform: scale(1.2);
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+/********************foorrrr caaaarrrr1***********************/
+.car1{
+    background-color: white;
+    height: 200px;
+    width: 360px;
+    background-image: url(car1.webp);
+    background-size: cover;
+    transition: 1s ;
+    border-radius: 5px 5px 5px 5px;
+}
+.slide1{
+    height: 300px;
+    width: 600px;
+    opacity: 0%;
+}
+.slide1:hover{
+    opacity: 100%;
+}
+.car1:hover{
+    height: 300px;
+    width: 600px;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+/********************foorrrr caaaarrrr2***********************/
+.car2{
+    background-color: white;
+    height: 200px;
+    width: 360px;
+    background-image: url(car2.webp);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 5px 5px 5px 5px;
+}
+.car2:hover{
+    height: 300px;
+    width: 600px;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.slide2{
+    height: 300px;
+    width: 600px;
+    opacity: 0%;
+}
+.slide2:hover{
+    opacity: 100%;
+}
+/********************foorrrr caaaarrrr3***********************/
+.car3{
+    background-color: white;
+    height: 200px;
+    width: 360px;
+    background-image: url(car3.webp);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 5px 5px 5px 5px;
+}
+.car3:hover{
+    height: 300px;
+    width: 600px;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.slide3{
+    height: 300px;
+    width: 600px;
+    opacity: 0%;
+}
+.slide3:hover{
+    opacity: 100%;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+/********************foorrrr caaaarrrr4***********************/
+.car4{
+    background-color: white;
+    height: 300px;
+    width: 360px;
+    background-image: url(car4.jpg);
+    background-size: cover;
+    position: relative;
+    top: 300px;
+    transition: 1s;
+    border-radius: 5px 5px 5px 5px;
+}
+.car4:hover{
+    height: 500px;
+    width: 600px;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+/********************foorrrr caaaarrrr5***********************/
+.car5{
+    background-color: white;
+    height: 300px;
+    width: 360px;
+    background-image: url(car5.jpg);
+    background-size: cover;
+    position: relative;
+    top: 300px;
+    transition: 1s;
+    border-radius: 5px 5px 5px 5px;
+}
+.car5:hover{
+    height: 500px;
+    width: 600px;
+    background-size: cover;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+/********************foorrrr caaaarrrr6***********************/
+.car6{
+    background-color: white;
+    height: 200px;
+    width: 360px;
+    background-image: url(car6.webp);
+    background-size: cover;
+    position: relative;
+   top: 300px;
+   transition: 1s;
+   border-radius: 5px 5px 5px 5px;
+}
+.car6:hover{
+    height: 300px;
+    width: 600px;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px gray;
+    background-size: cover;
+}
+.slide6{
+    height: 300px;
+    width: 600px;
+    opacity: 0%;
+}
+.slide6:hover{
+    opacity: 100%;
+}

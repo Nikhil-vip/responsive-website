@@ -1,0 +1,58 @@
+/*signnnnnn uppppppp boxxxxx*/
+.login{
+  margin: auto;
+  text-align: center;
+ font-family: monospace;
+  font-weight: bolder;
+  transform: scale(2.5);
+  position: relative;
+  top: 10px;
+  left:10px;
+  transition: 1s;
+}
+.login:hover{
+  color:blueviolet;
+}
+.details{
+  height:300px;
+  width: 500px;
+  border: 2px  ;
+  position: relative;
+  bottom:1000px;
+  left:30px;
+  box-shadow: 2px 2px 3px 3px gray;
+  transition: 0.5s;
+  margin: auto;
+  background-color:navy;
+  border-radius: 8px 8px 8px 8px;
+}
+.details:hover{
+  transform: scale(1.1);
+  background-color:slateblue;
+}
+.username{
+position: relative;
+left: 320px;
+top: 80px;
+transform: scale(2);
+}
+.password{
+  position: relative;
+  left: 320px;
+  top: 180px;
+  transform: scale(2);
+}
+button{
+  transform: scale(2);
+  position: relative;
+  left: 750px;
+  bottom: 800px;
+  border-radius: 5px 5px 5px;
+  color: palevioletred;
+}
+button:hover{
+  background-color: slateblue;
+}
+#car{
+  color: cornflowerblue;
+}
